@@ -4,8 +4,7 @@ import signal
 from sys import stdout
 
 
-potential_keyloggers = ['logkey', 'keylog', 'keysniff',
-                        'lkl', 'ttrpld', 'uber', 'vlogger', 'wolfeye', 'kidlogger', 'spyrix']
+potential_keyloggers = []
 
 
 class Process(object):
